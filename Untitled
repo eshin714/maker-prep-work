@@ -1,0 +1,6 @@
+.NOTATION CANNOT USE VARIABLES
+
+[] are for accessing.
+() functions - are for invoking.
+
+.hasOwnProperty

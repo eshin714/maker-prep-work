@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<div id="message">An Eagle Flies at Midnight
+</div>
+<div id="result">
+</div>
+</div id = "imgfile">
+</div>
+<div id="output">
+
+</div>
+
+
+  <script>
+  //ex1
+  // hello" === "hello"
+  // true
+  // "hello" === "shit"
+  // false
+  // "Hello" === "hello"
+  // false
+  //
+  // "Hello" === 42
+  // false
+  // parseInt("142") === 142
+  // true --> -->
+  // ex2
+  // if(true){
+  //   console.log('oh yeeeeaaaahhhhh!!!');
+  // };
+  //
+  // if(false){
+  //   console.log('wait, where am I??');
+  // };
+  //
+  // if(5>4){
+  //   console.log('Makes sense..');
+  // };
+  //
+  // if(2===5){
+  //   console.log("if you are seeing this message, something's gone terribly wrong");
+  // };
+  //
+  // if(prompt("How you doing?") === "good"){
+  //   console.log("Well, I'm very glad to hear that...");
+  // };
+  //
+
+
+  //ex 3
+  // if(5>3){
+  //   console.log("You got it!")
+  // };
+  //
+  // if(false){
+  //   console.log("nothing")
+  // }
+  //
+  // var sadQuestion = prompt("Are you sad? yes or no");
+  //
+  // if(sadQuestion === "yes"){
+  //   alert("Don't Be SAD!!! Be Glad!!")
+  // } else {
+  //   alert("NICEE")
+  // };
+  //
+  //
+  // var secretNumber = prompt("What's the secret number?");
+  //
+  // if(secretNumber === "3") {
+  //   alert("GottDAMN RIGHT ITS 3!")
+  // } else {
+  //   alert("WRRRONNGGG!!")
+  // };
+  //
+  // var scrtPass = prompt("What's the secret password?")
+  //
+  // if(scrtPass === "jabroni"){
+  //   alert("WELCOME!!!!!")
+  // } else{
+  //   window.location = "http://www.google.com";
+  // }
+  //
+
+  //ex4
+  //
+  // var hero = "strong", bad_guy = "weak";
+  //
+  // if(hero==="strong") {
+  //   if (bad_guy ==="weak"){
+  //     console.log('Ah-ha, an easy victory!');
+  //   }
+  //   console.log("Let us battle to the death!");
+  // }
+
+  var response = document.querySelector('#result').textContent;
+
+  var image_path = document.querySelector('#imgfile').textContent;
+
+  var  secret_saying = document.querySelector('#message').textContent;
+
+  if(secret_saying === "An Eagle Flies at Midnight"){
+    response.innerHTML += "You may pass";
+    image_path.innerHTML += "images/open_door.png";
+  } else {
+    response.innerHTML += "Release the hounds!";
+    image_path.innerHTML += "images/attack.png"
+  };
+  //
+  document.querySelector('#result').textContent = response;
+  document.querySelector('#imgfile').textContent = image_path;
+
+
+
+
+//
+//
+//
+//   var user_input = prompt('What would you like to search for?'),
+//   output_el = document.querySelector('#output');
+//
+//   if (!user_input) {//this tells us something important about empty strings // What would happen if we tried to use?     user_input = }
+//   alert('Hey! you were supposed to type something.');
+//     } else new Promise(function(resolve, reject) {
+//   output_el.textContent = "You're searching for the wrong thing";
+// } else {
+//   output_el.textContent = "ahh, the enlightened one!";
+// }
+//
+//
+// if (user_input === "happiness") {
+//   output_el.textContent = "ahh, the enlightened one!";
+// } else if (!user_input) {
+//   alert('Hey! You were supposed to type something.');
+// } else {
+//   output_el.textContent = "You're searching for the wrong thing"
+// }
+//
+// if(age<21){
+//   output_el.textContent = "sorry, son";
+// } else if (!(age>35)) {
+//   output_el.textContent = "id please";
+// } else {
+//   ouput_el.textContent = "come on in!"
+// }
+
+</script>
+
+</body>
+</html>

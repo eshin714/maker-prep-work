@@ -1,0 +1,75 @@
+.custom-jumbotron {
+  color: white;
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url("http://www.california-tour.com/blog/wp-content/uploads/2011/11/palmtree-sunset_shutterstock_reduced.jpg");
+  background-size: cover;
+
+
+
+}
+.jumboimg {
+  height:100px;
+  width: 100px;
+  background-size: cover;
+
+}
+.test-box {
+  height: 100px;
+  widows: 100px;
+  background: navajowhite;
+  margin-top: 10px;
+}
+
+
+/*blogposts*/
+
+
+
+.maintitle {
+  background-color: white;
+  color: black;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin: 40px;
+  box-sizing: border-box;
+}
+
+.daytitles {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #aa863a;
+  color: black;
+  font-family: Century Gothic, bold;
+  padding: 5px;
+}
+
+.blogposts {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #283018;
+  color: white;
+  font-family: Century Gothic, sans-serif;
+  position: relative;
+
+}
+
+.myimage {
+  float: right;
+  margin: 0 0 1em 1em;
+  color: black;
+  background-color: white
+
+}
+
+.cornerbox {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color: white;
+  color: black;
+
+}

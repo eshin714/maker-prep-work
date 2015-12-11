@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<div>
+  <div class="test-box">
+
+  </div>
+
+</div>
+
+<script>
+
+  var myTestBox = document.querySelector(".test-box");
+
+  console.log(myTestBox);
+
+  //this will take the actual div of the HTML.<div class="test-box">
+  //
+  // </div>
+
+  myTestBox.textContent = "hello";
+
+  // This will add "hello" into our div.
+
+  console.log(myTestBox.textContent)
+
+  //This will console log all of the content in our test-box div.
+
+  myTestBox.innerHTML = += "<p>ADD ME!!!</p>";
+
+  // This will add to whatever is already in the HTML doc.
+
+
+
+
+</script>
+</body>
+
+</html>
